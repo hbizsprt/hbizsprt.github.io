@@ -1,0 +1,34 @@
+.dd{
+  display: none;
+}
+div.appear> .dd {
+  display: block;
+  animation: 1s fadeIn;
+}
+
+
+.dt,.dt1,.dd2{
+  cursor: pointer;
+  user-select: none;
+}
+div.appear> .dd1 {
+  display: block;
+  animation: 1s fadeIn;
+}
+
+div.appear> .dd2 {
+  display: block;
+  animation: 1s fadeIn;
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    /* transform: translateY(-50px); */
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}

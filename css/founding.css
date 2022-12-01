@@ -1,0 +1,93 @@
+
+.top_banner{
+  position: relative;
+}
+.banner_title{
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-size: 1.3em;
+}
+
+.bi-plus-circle{
+  font-weight: bold;
+  color: red;
+}
+.bi-dash-circle{
+  display: none;
+  font-weight: bold;
+  color: blue;
+}
+div.appear>.dt .bi-plus-circle{
+  display: none;
+}
+div.appear>.dt .bi-dash-circle{
+  display: block;
+}
+.paragraph{
+  background: #ddd;
+  margin: 36px 0;
+  border-radius: 5px;
+  box-shadow: 3px 6px 6px #666;
+}
+
+.subject h3::before{
+content:'■';
+}
+.subject+.subject{
+  margin-top: 24px;
+}
+.content>.dd{
+  border:1px dashed gray;
+  border-radius: 5px;
+}
+.ex li{
+  list-style:"★";
+}
+.detail{
+  display: flex;
+}
+.main img{
+  width: 200px;
+}
+.tb{
+  margin: 5px;
+  }
+
+.tb,.tb td,.tb tr,.tb th{
+  border: 1px solid gray;
+  border-collapse: collapse;
+}
+.tb td{
+  padding:0 8px;
+  /* text-align: center; */
+}
+.tb ul{
+  padding: 0;
+}
+.dot li{
+  list-style:initial ;
+}
+.w30{
+  width: 30%;
+}
+.w35{
+  width: 35%;
+}
+.w15{
+  width: 15%;
+}
+#w10{
+  width: 5%;
+}
+.money th{
+  width: 10%;
+}
+.money{
+  text-align: right;;
+}
+/* #difference th{
+  width:;
+} */
+

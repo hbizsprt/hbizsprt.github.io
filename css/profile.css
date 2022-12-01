@@ -1,0 +1,23 @@
+
+.howto,.rinen,.profile{
+  margin: 24px 0;
+}
+.profile img{
+  width: 50%;
+  max-width: 200px;
+}
+.profile .pro_img{
+text-align: center;
+}
+@media(min-width:800px){
+
+.detail{
+  position: relative;
+}
+.pro_img{
+  position: absolute;
+  right :0;
+  width: 400px;
+
+}
+}

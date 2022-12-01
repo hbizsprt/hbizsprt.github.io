@@ -1,0 +1,181 @@
+ul{
+  padding-left: 0;
+}
+td{
+  padding:0 8px;
+}
+.outside{
+  color: #0000EE;
+  text-decoration: underline;
+}
+
+.purpose{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:8px;
+  /* grid-template-rows: ; */
+}
+.subject{
+  margin:24px 0;
+  border-bottom: 1px dashed #333;
+}
+.subject:nth-child(odd){
+  background: rgba(142, 199, 221,0.3);
+}
+.item{
+  margin-top: 12px;
+}
+.item:has(.large) .appear{
+  background: rgb(251, 252, 213);
+}
+.subject_container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:8px;
+  flex-grow: 1;
+  margin: 0 10px;
+  /* grid-template-rows: ; */
+}
+.purpose_icon{
+  color:#fff;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 5px;
+  height: 20px;
+}
+.items_icon{
+  display: grid;
+  grid-template-rows: 2fr;
+  grid-template-columns: 120px 1fr;
+}
+.items_icon>.btn{
+ height:auto;
+ min-height: 36px;
+}
+
+.btn{
+  width: 120px;
+  height:36px;
+  background: #ccc;
+  text-align: center;
+  line-height: 36px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+}
+.btn.large{
+  width: 100%;
+  background: #888;
+  position:relative;
+}
+.btn.large h4{
+  color:#eee;
+}
+.bi-file-plus{
+ position:absolute;
+ right:12px;
+ font-size: 24px;
+}
+.btn>p{
+  width: 100%;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.itemC {
+  grid-row: 2 / 3;
+  grid-column: 1 / 3;
+}
+.subheading{
+  position: relative;
+
+}
+.subheading::after{
+  content:'+';
+  font-weight: bold;
+  border-radius: 5px;
+  transition: transform .3s;
+  position: absolute;
+}
+.read_more.appear>.subheading::after {
+  transform: rotate(45deg);
+}
+.dd1,.dd2{
+  margin: 8px 0;
+  width: 95%;
+  padding:8px;
+  display: none;
+  border-radius: 5px;
+  outline: 1px dashed#888;
+}
+.dd2 img{
+  width: 100%;
+}
+
+
+
+.enumeration{
+ display: flex;
+ flex-wrap: wrap;
+}
+.enumeration p{
+  margin: 4px;
+  white-space: nowrap;
+
+}
+.enumeration p::before{
+content:'■'
+}
+ol{
+  display: flex;
+  flex-wrap: wrap;
+}
+ol li{
+  margin: 0 16px;
+}
+.list1{
+  padding: 0 16px;
+  outline: 1px dashed #333;
+  border-radius: 5px;
+}
+.subheading::before{
+  content:"・";
+}
+.fb{
+  display: flex;
+  flex-wrap: wrap;
+}
+.date{
+  margin: 8px 0;
+  text-align: right;
+  font-size: smaller;
+  font-weight: bold;
+
+}
+.date::before{
+  content:"updated:"
+}
+
+
+
+
+
+@media(min-width:800px){
+ 
+  .detail{
+    position: relative;
+  }
+  .pro_img{
+    position: absolute;
+    right :0;
+    width: 400px;
+  
+  }
+  .purpose{
+    grid-template-columns: repeat(5,1fr);
+  }
+}
+  /* ボタンの色の設定はproject_color.css */
