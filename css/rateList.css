@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+#rate-list{
+  margin-top: 80px;
+}
+#rate-list{
+  margin-top: 24px;
+}
+.plan + .plan{
+  margin-top: 48px;
+}
+.plan img{
+  display: block;
+  margin: 0 auto;
+  object-fit: contain;
+  width: 30%;
+}
+
+.contentImage{
+  text-align: center;
+}
+.fee-content{
+  display: flex;
+}
+.fee-content h3{
+  text-align: center;
+  display: block;
+  width: 100px;
+}
+
+.others{
+  border:1px dashed navy;
+  margin: 60px auto 0;
+  width: 80%;
+  padding:8px;
+  border-radius: 4px;
+}
+
+
+@media(min-width:800px){
+  .plan{
+    display: flex;
+  }
+  .plan:nth-child(even){
+    flex-direction: row-reverse;
+  }
+  }
+  .desc{
+    flex:1;
+  }
+  .contentImage{
+    width: 30%;
+  }
+  .plan img{
+    width: 100%;
+  }

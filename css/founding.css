@@ -48,7 +48,7 @@ content:'■';
 .detail{
   display: flex;
 }
-.main img{
+main img{
   width: 200px;
 }
 .tb{
