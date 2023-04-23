@@ -1,0 +1,32 @@
+header{
+  display: flex;
+  padding: 10px;
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  /* 〇 */background: #ffbf8b;
+  z-index: 5;
+}
+#top_banner{
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+#top_banner img{
+  height: 100%;
+  margin-right: auto;
+  /* display: flex; */
+  /* justify-content:center;   */
+  /* align-items: flex-end; */
+}
+#open{
+  /* margin-left: auto; */
+  /* width: 24px; */
+  font-size: 36px;
+}
+
+/* #pic img{
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+} */
