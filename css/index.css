@@ -80,19 +80,15 @@ header{
 
 }
 #pc_menu ul{
-  /* width: 100%; */
   display: flex;
   padding: 0;
   justify-content: space-between;
   gap:8px;
-  /* background: green; */
 
 }
 #pc_menu li{
   cursor: pointer;
   font-size: 2vw;
-
-  /* background: pink; */
 }
 #pc_menu li a{
   text-decoration: none;
