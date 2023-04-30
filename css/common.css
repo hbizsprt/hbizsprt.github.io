@@ -13,13 +13,10 @@ ul,ol{
   margin: 0;
 }
 ul li{
-  list-style: none;
+  /* list-style: none; */
   color: #444;
 }
-a{
-  text-decoration: none;
-  color: #333;
-}
+
 .dn{
   display: none;
 }
@@ -77,6 +74,7 @@ a{
 
 }
 
+/* ----------header style -----------*/
 /* ----------main style -----------*/
 main{
   margin: 0 auto;

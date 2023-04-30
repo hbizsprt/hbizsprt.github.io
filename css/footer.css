@@ -34,6 +34,7 @@ footer{
 
 }
 .footer_container li{
+  list-style: none;
   flex:1;
   font-size: 24px;
   text-align: center;

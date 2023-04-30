@@ -17,3 +17,7 @@ header .title{
   line-height: 36px;
   font-size: 1.5em;
 }
+header a{
+  text-decoration: none;
+  color: #333;
+}
